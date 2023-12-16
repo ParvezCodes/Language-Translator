@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2d83fcf070.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Translator</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html">Translater<span>.io</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="body__container">
+      <div class="container">
+        <div class="wrapper">
+          <div class="text__input">
+            <textarea class="from__text" placeholder="Enter text"></textarea>
+            <textarea
+              class="to__text"
+              placeholder="Translation"
+              readonly
+              disabled
+            ></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <div class="icons">
+                <i id="from" class="fa-solid fa-volume-high"></i>
+                <i id="from" class="fa-solid fa-copy"></i>
+              </div>
+              <select></select>
+            </li>
+            <li class="exchange"><i class="fa-solid fa-right-left"></i></li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <i id="to" class="fa-solid fa-volume-high"></i>
+                <i id="to" class="fa-solid fa-copy"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button>Translate</button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <h3>Translater<span>.io</span></h3>
+        <p>
+          Note: Translations on this site use free APIs, so results may be less
+          accurate some time.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="https://github.com/ParvezCodes" target="_blank">
+              <i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/parvez-pathan-947631256"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/prvzz_2522" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/parvez.pathan.9889/"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://parvezcodes.netlify.app/" target="_blank"
+              ><i class="fa-brands fa-product-hunt"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="JS/countries.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
