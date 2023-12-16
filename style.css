@@ -39,6 +39,9 @@ nav {
   text-decoration: none;
   list-style: none;
 }
+.logo a i  {
+  color: var(--secondary-color);
+}
 
 .logo a span {
   color: var(--secondary-color);
